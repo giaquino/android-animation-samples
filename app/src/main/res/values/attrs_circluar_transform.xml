@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="CircularTransform">
+    <attr format="reference" name="sourceIcon" />
+    <attr format="color" name="sourceBackgroundColor" />
+  </declare-styleable>
+</resources>

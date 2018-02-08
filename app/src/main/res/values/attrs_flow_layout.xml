@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="FlowLayout">
+    <attr format="dimension" name="verticalSpacing" />
+    <attr format="dimension" name="horizontalSpacing" />
+  </declare-styleable>
+
+  <declare-styleable name="FlowLayout_Layout">
+    <attr name="android:layout_gravity"/>
+  </declare-styleable>
+
+  <declare-styleable name="CountdownProgressView">
+    <attr name="android:textSize" />
+    <attr format="integer" name="min" />
+    <attr format="integer" name="max" />
+    <attr format="dimension" name="strokeWidth" />
+    <attr format="dimension" name="spacing" />
+  </declare-styleable>
+
+</resources>

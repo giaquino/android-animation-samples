@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.transition.btn_to_dialog.BtnToDialogActivity2"
+    android:background="@color/scrim">
+
+  <LinearLayout
+      android:id="@+id/dialog"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="32dp"
+      android:background="@android:color/white"
+      android:fitsSystemWindows="true"
+      android:orientation="vertical"
+      android:padding="16dp"
+      android:transitionName="@string/transition_btn_to_dialog"
+      android:transitionGroup="true"
+      android:translationZ="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:text="@string/lorem_ipsum" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickClose"
+        android:text="Close"
+        style="@style/Widget.AppCompat.Button.Colored" />
+  </LinearLayout>
+</FrameLayout>

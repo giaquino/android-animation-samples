@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <item name="flag_background_color_transition_entered" type="id" />
+
+  <declare-styleable name="BackgroundColor">
+    <attr name="startColor" />
+    <attr name="endColor" />
+    <attr format="boolean" name="animateChildren" />
+  </declare-styleable>
+</resources>

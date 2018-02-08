@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:interpolator="@android:interpolator/fast_out_slow_in"
+    android:transitionOrdering="together">
+
+  <transition
+      class="com.giaquino.animations.common.transition.RoundRectTransform"
+      android:duration="300"
+      app:clipType="asymmetric"
+      app:endColor="@android:color/white"
+      app:endCornerRadius="0dp"
+      app:endHorizontalInset="0dp"
+      app:endVerticalInset="0dp"
+      app:startColor="@color/accent"
+      app:startCornerRadius="2dp"
+      app:startHorizontalInset="4dp"
+      app:startVerticalInset="6dp">
+
+    <targets>
+      <target android:targetName="@string/transition_btn_to_dialog" />
+    </targets>
+
+  </transition>
+
+  <transition
+      class="com.giaquino.animations.common.transition.BackgroundColor"
+      android:duration="300"
+      app:endColor="@android:color/white"
+      app:startColor="@color/accent">
+
+    <targets>
+      <target android:targetName="@string/transition_btn_to_dialog" />
+    </targets>
+
+  </transition>
+
+  <transition
+      class="com.giaquino.animations.common.transition.Move"
+      android:duration="300">
+
+    <pathMotion class="com.giaquino.animations.common.transition.GravityArcMotion" />
+
+    <targets>
+      <target android:targetName="@string/transition_btn_to_dialog" />
+    </targets>
+  </transition>
+
+</transitionSet>

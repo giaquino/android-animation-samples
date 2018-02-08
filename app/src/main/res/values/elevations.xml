@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- 
+  Default elevation
+  https://material.io/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android
+   -->
+  <dimen name="elevation_dialog">24dp</dimen>
+  <dimen name="elevation_picker">24dp</dimen>
+  <dimen name="elevation_drawer">16dp</dimen>
+  <dimen name="elevation_bottom_sheet">12dp</dimen>
+  <dimen name="elevation_bottom_navigation_bar">8dp</dimen>
+  <dimen name="elevation_card">2dp</dimen>
+  <dimen name="elevation_card_picked">8dp</dimen>
+  <dimen name="elevation_button_2dp">2dp</dimen>
+  <dimen name="elevation_button_pressed">8dp</dimen>
+  <dimen name="elevation_fab">6dp</dimen>
+  <dimen name="elevation_fab_pressed">12dp</dimen>
+  <dimen name="elevation_snackbar">6dp</dimen>
+  <dimen name="elevation_appbar">4dp</dimen>
+  <dimen name="elevation_refresh_indicator">3dp</dimen>
+  <dimen name="elevation_switch">1dp</dimen>
+  <dimen name="elevation_quick_entry">2dp</dimen>
+  <dimen name="elevation_quick_entry_scrolling">3dp</dimen>
+
+  <dimen name="_4dp">4dp</dimen>
+  <dimen name="_8dp">8dp</dimen>
+  <dimen name="_16dp">16dp</dimen>
+  <dimen name="_32dp">32dp</dimen>
+
+  <dimen name="spacing_start">16dp</dimen>
+  <dimen name="spacing_end">16dp</dimen>
+  <dimen name="spacing_start_toolbar_title">72dp</dimen>
+
+</resources>

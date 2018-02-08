@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Animations</string>
+  <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta arcu vel arcu pellentesque vestibulum. Morbi sed risus ac lacus facilisis elementum vitae sit amet nisi. Mauris nec ullamcorper ante. Sed tristique bibendum faucibus. Suspendisse id vulputate urna. Sed auctor quis metus ac tristique. Curabitur ut mattis augue. Etiam vel risus pulvinar, vulputate lectus eget, rutrum elit. Cras in viverra lacus. Donec sapien ex, posuere eget laoreet et, interdum euismod lorem. Maecenas gravida, lectus quis dapibus porttitor, augue felis dictum nunc, vitae auctor sem mauris et neque. Praesent maximus aliquam faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent dignissim, ligula nec vulputate eleifend, odio sapien ultrices ipsum, a congue nibh diam a felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula congue purus, sed ullamcorper nulla luctus id.</string>
+
+  <string name="transition_fab_to_dialog" translatable="false">transition_fab_to_dialog</string>
+  <string name="transition_btn_to_dialog" translatable="false">transition_btn_to_dialog</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <item name="flag_round_rect_entered" type="id" />
+
+  <declare-styleable name="RoundRectTransform">
+    <attr format="dimension" name="startCornerRadius" />
+    <attr format="dimension" name="endCornerRadius" />
+    <attr format="dimension" name="startHorizontalInset" />
+    <attr format="dimension" name="endHorizontalInset" />
+    <attr format="dimension" name="startVerticalInset" />
+    <attr format="dimension" name="endVerticalInset" />
+    <attr name="clipType">
+      <flag name="symmetric" value="1" />
+      <flag name="asymmetric" value="2" />
+    </attr>
+  </declare-styleable>
+</resources>

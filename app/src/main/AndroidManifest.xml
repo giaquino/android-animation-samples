@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.giaquino.animations">
+
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+  <application
+      android:name=".AnimationApplication"
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:supportsRtl="true"
+      android:theme="@style/MyTheme">
+
+    <activity android:name=".activity.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity android:name=".activity.LayoutActivity" />
+
+    <activity android:name=".activity.SnapshotActivity" />
+
+    <activity android:name=".activity.TransitionActivity" />
+
+
+    <!-- Transition Button to Dialog -->
+    <activity android:name=".activity.transition.btn_to_dialog.BtnToDialogActivity1" />
+    <activity
+        android:name=".activity.transition.btn_to_dialog.BtnToDialogActivity2"
+        android:theme="@style/MyTheme.Translucent.BtnToDialog" />
+
+    <!-- Transition Fab to Dialog -->
+    <activity android:name=".activity.transition.fab_to_dialog.FabToDialogActivity1" />
+    <activity
+        android:name=".activity.transition.fab_to_dialog.FabToDialogActivity2"
+        android:theme="@style/MyTheme.Translucent.FabToDialog" />
+
+    <activity android:name=".activity.AnimationActivity" />
+
+    <activity android:name=".activity.animation.RevealActivity" />
+
+    <activity android:name=".activity.animation.ProgressActivity" />
+
+    <activity android:name=".activity.WidgetActivity" />
+  </application>
+</manifest>

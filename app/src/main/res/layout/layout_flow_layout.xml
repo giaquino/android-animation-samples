@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <com.giaquino.animations.common.layout.FlowLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jelly Beans"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KitKat"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lollipop"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marshmallow"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nougat"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oreo"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jelly Beans"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KitKat"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lollipop"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marshmallow"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nougat"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oreo"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Android"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Bottom"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="Top"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Center"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Android"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+  </com.giaquino.animations.common.layout.FlowLayout>
+</layout>

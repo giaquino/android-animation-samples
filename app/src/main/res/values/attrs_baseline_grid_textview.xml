@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <attr format="dimension" name="lineHeightHint" />
+  <declare-styleable name="BaselineGridTextView">
+    <attr format="float" name="lineHeightMultiplierHint" />
+    <attr name="lineHeightHint" />
+    <attr format="boolean" name="maxLinesByHeight" />
+    <attr name="android:textAppearance" />
+    <attr name="android:fontFamily" />
+  </declare-styleable>
+</resources>

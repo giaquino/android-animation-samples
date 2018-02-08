@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.TransitionActivity">
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="onClickFabToDialog"
+      android:text="Fab to Dialog"
+      style="@style/Widget.AppCompat.Button.Colored" />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="onClickButtonToDialog"
+      android:text="Button to Dialog"
+      style="@style/Widget.AppCompat.Button.Colored" />
+</LinearLayout>
